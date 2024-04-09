@@ -1,7 +1,7 @@
 const playBtn = document.querySelector('.intro button');
 const introScreen = document.querySelector('.intro');
 const match = document.querySelector('.match');
-const sound=document.querySelector('.audio')
+
 
 let pScore = 0;
 let cScore = 0;
@@ -24,7 +24,7 @@ function playMatch(){
         option.addEventListener('click', function(){
             const computerNumber = Math.floor(Math.random() * 3);
             const computerChoice = computerOptions[computerNumber];
-            sound.play()
+           
             setTimeout(() => {
                 
                 computerHands(this.textContent, computerChoice);
