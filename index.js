@@ -34,8 +34,8 @@ function playMatch(){
             }, 1000);
 
         
-            playerHand.style.animation = 'shakePlayer 1000 ease';
-            computerHand.style.animation = 'shakeComputer 1000 ease';
+            playerHand.style.animation = 'shakePlayer 2s ease';
+            computerHand.style.animation = 'shakeComputer 2s ease';
         });
     });
 
